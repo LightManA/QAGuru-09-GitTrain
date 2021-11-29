@@ -6,7 +6,13 @@ import org.junit.jupiter.api.Test;
 public class GitTrainingTest {
 
     @Test
-    void trainingTest () {
+        // Заведомо нерабочий метод
+    void secondTest() {
+        Assertions.assertTrue(true);
+    }
+
+    @Test
+    void trainingTest() {
         Assertions.assertTrue(true);
     }
 

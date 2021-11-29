@@ -8,7 +8,7 @@ public class GitTrainingTest {
     @Test
         // Заведомо нерабочий метод
     void secondTest() {
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertTrue(2 > 1);
     }
 
     @Test
